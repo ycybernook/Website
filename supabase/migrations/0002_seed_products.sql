@@ -2,7 +2,7 @@
 -- there are no option_groups yet — fill in real prices/options via the
 -- Supabase table editor (or write follow-up SQL) after launch.
 
-insert into products (name, description, image_url, base_price, sort_order) values
+insert into cybernook.products (name, description, image_url, base_price, sort_order) values
   ('3D Printed Keychain', 'Personalized · 1-9 Letters · 1, 2 or 3 colors', '/products/00-3d-printed-keychain.jpg', 0, 0),
   ('3D Clicker Keychain', 'Personalized · Modular base · 2 colors', '/products/01-3d-clicker-keychain.jpg', 0, 1),
   ('Leather Keychain', 'Personalized · Max 6 letters · Free keychain charm', '/products/02-leather-keychain.jpg', 0, 2),
